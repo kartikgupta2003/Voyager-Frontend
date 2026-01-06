@@ -1,16 +1,40 @@
-# React + Vite
+#Voyager – AI-Powered Trip Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Voyager is a full-stack travel planning web application that helps users generate personalized trip itineraries based on their preferences, budget, and selected destinations. The platform provides rich location insights with maps and images, delivering a smooth and intuitive trip-planning experience.
 
-Currently, two official plugins are available:
+#Features :-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Generate AI-powered travel itineraries tailored to user preferences, budget, and destinations
 
-## React Compiler
+Interactive location insights with geocoding and map-based visualization using the MapTiler API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Secure authentication using Google OAuth and Clerk
 
-## Expanding the ESLint configuration
+Persistent trip storage with MongoDB, allowing users to create, view, and retrieve trips across sessions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fully responsive UI built with modern component libraries
+
+#Tech Stack :-
+
+Frontend: React, ShadCN UI
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+Authentication: Clerk, Google OAuth
+
+APIs & Services: MapTiler (Geocoding & Maps)
+
+Architecture: MERN Stack
+
+#Highlights :-
+
+Designed scalable CRUD APIs for trip creation and retrieval
+
+Integrated third-party APIs to enhance real-world usability
+
+Built with production-ready authentication and session handling
+
+
+Live Demo :- https://voyager-frontend-one.vercel.app
