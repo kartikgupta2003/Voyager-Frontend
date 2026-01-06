@@ -19,7 +19,7 @@ const HotelCard = ({ hotel }) => {
                     }
                 }
                 const { data } = await axios.get(
-                    `https://voyager-i63d.onrender.com/api/trip/photo?name=${hotel.HotelName}&lat=${hotel.latitude}&lng=${hotel.longitude}`,
+                    `https://voyager-frontend-8fox.vercel.app/api/trip/photo?name=${hotel.HotelName}&lat=${hotel.latitude}&lng=${hotel.longitude}`,
                     config
                 );
                 setImgUrl(data.imageUrl);

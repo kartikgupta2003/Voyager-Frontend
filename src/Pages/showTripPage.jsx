@@ -27,7 +27,7 @@ const ShowTrip = () => {
                 }
             }
 
-            const { data } = await axios.post("https://voyager-i63d.onrender.com/api/trip/fetch", { id }, config);
+            const { data } = await axios.post("https://voyager-frontend-8fox.vercel.app/api/trip/fetch", { id }, config);
                 // console.log(data);
                 setTrip(data);
 
