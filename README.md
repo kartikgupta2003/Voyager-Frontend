@@ -52,4 +52,16 @@ https://voyager-frontend-one.vercel.app
 - Integrated AI APIs to dynamically generate personalized travel itineraries  
 - Integrated third-party APIs to enhance real-world usability  
 - Implemented production-ready authentication and session handling  
-- Containerized the full application using Docker for environment consistency and simplified deployment  
+- Containerized the full application using Docker for environment consistency and simplified deployment
+
+---
+
+
+## Docker Setup
+
+This project is fully containerized using Docker and Docker Compose.
+
+For the complete Docker configuration and setup instructions, refer to:
+
+https://github.com/kartikgupta2003/Voyager-Docker
+
