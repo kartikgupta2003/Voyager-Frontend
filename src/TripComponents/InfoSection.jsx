@@ -19,7 +19,7 @@ const InfoSection = ({ trip }) => {
                         Authorization: `Bearer ${token}`,   // 🔥 this is REQUIRED
                     }
                 }
-                const {data} = await axios.get(`https://voyager-frontend-8fox.vercel.app/api/trip/photo?name=${trip.destination}&lat=${trip.lat}&lng=${trip.long}` , config);
+                const {data} = await axios.get(`${import.meta.env.VITE_API_URL}/api/trip/photo?name=${trip.destination}&lat=${trip.lat}&lng=${trip.long}` , config);
                 setImgUrl(data.imageUrl);
                 
             }catch(err){
